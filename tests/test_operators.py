@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from src.mathsoperators import add,sub,mul
+=======
+from src.mathsoperators import add,sub
+>>>>>>> 9ae7d1042dc7749aaa85eed060e9a54299de735d
 
 def test_add():
     assert add(2, 3) == 5
