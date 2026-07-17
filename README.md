@@ -11,4 +11,5 @@
 8. git remote add origin https://github.com/sgl13/github_ci_cd_practice.git
 9. git push -U origin main ---> to push the code to remote repository
 10. sign and authorize your account
+11. create a github workflow
 """
