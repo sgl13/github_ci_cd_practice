@@ -1,4 +1,4 @@
-from src.mathsoperators import add sub
+from src.mathsoperators import add,sub
 
 def test_add():
     assert add(2, 3) == 5
