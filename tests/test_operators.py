@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-from src.mathsoperators import add,sub,mul
-=======
-from src.mathsoperators import add,sub
->>>>>>> 9ae7d1042dc7749aaa85eed060e9a54299de735d
+from src.mathsoperators import add, sub, mul
 
 def test_add():
     assert add(2, 3) == 5
@@ -10,10 +6,11 @@ def test_add():
     assert add(3, 3) == 6
 
 def test_sub():
-    assert sub(2,3)==-1
-    assert sub(3,3)==0
-    assert sub(12,6)==6
+    assert sub(2, 3) == -1
+    assert sub(3, 3) == 0
+    assert sub(12, 6) == 6
+
 def test_mul():
-    assert mul(2,3)==6
-    assert mul(0,0)==0
-    assert mul(6,6)==36
+    assert mul(2, 3) == 6
+    assert mul(0, 0) == 0
+    assert mul(6, 6) == 36
